@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+
+#title, #description {
+    font-weight: 400;
+    text-align: center;
+}
+
+#description {
+    padding: 8px 0 24px;
+}
+
+#tooltip {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.cell:hover {
+    stroke: black;
+ }
